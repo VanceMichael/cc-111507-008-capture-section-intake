@@ -1,0 +1,54 @@
+[
+  {
+    "id": "standard",
+    "entry": "capture.pcapng",
+    "version": "source-v1",
+    "resources": [
+      "capture.pcapng",
+      "sections.pcapng",
+      "bad-length.pcapng",
+      "no-time.pcapng"
+    ],
+    "behavior": "standard",
+    "description": "港区设备联调：standard"
+  },
+  {
+    "id": "multiple-sections",
+    "entry": "sections.pcapng",
+    "version": "source-v1",
+    "resources": [
+      "capture.pcapng",
+      "sections.pcapng",
+      "bad-length.pcapng",
+      "no-time.pcapng"
+    ],
+    "behavior": "multiple-sections",
+    "description": "港区设备联调：multiple-sections"
+  },
+  {
+    "id": "bad-length",
+    "entry": "bad-length.pcapng",
+    "version": "source-v1",
+    "resources": [
+      "capture.pcapng",
+      "sections.pcapng",
+      "bad-length.pcapng",
+      "no-time.pcapng"
+    ],
+    "behavior": "bad-length",
+    "description": "港区设备联调：bad-length"
+  },
+  {
+    "id": "no-time",
+    "entry": "no-time.pcapng",
+    "version": "source-v1",
+    "resources": [
+      "capture.pcapng",
+      "sections.pcapng",
+      "bad-length.pcapng",
+      "no-time.pcapng"
+    ],
+    "behavior": "no-time",
+    "description": "港区设备联调：no-time"
+  }
+]
